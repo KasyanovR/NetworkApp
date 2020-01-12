@@ -3,18 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		816E43EA1ECDD77A7F73126A /* Pods_NetworkApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD4F0E1CED5884E42F39873 /* Pods_NetworkApp.framework */; };
 		CE1FB2C723C8BC2C009A8D93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1FB2C623C8BC2C009A8D93 /* AppDelegate.swift */; };
 		CE1FB2C923C8BC2C009A8D93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1FB2C823C8BC2C009A8D93 /* ViewController.swift */; };
 		CE1FB2CC23C8BC2C009A8D93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1FB2CA23C8BC2C009A8D93 /* Main.storyboard */; };
 		CE1FB2CE23C8BC2D009A8D93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1FB2CD23C8BC2D009A8D93 /* Assets.xcassets */; };
 		CE1FB2D123C8BC2D009A8D93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1FB2CF23C8BC2D009A8D93 /* LaunchScreen.storyboard */; };
+		CE1FB2D923C8C259009A8D93 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1FB2D823C8C259009A8D93 /* CollectionViewCell.swift */; };
+		CE1FB2DB23C8CB49009A8D93 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1FB2DA23C8CB49009A8D93 /* ImageViewController.swift */; };
+		CE1FB2DD23C8DB40009A8D93 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1FB2DC23C8DB40009A8D93 /* NetworkManager.swift */; };
+		CE1FB2DF23C8E5A9009A8D93 /* AlamofireManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1FB2DE23C8E5A9009A8D93 /* AlamofireManager.swift */; };
+		CE1FB2E523C8F23C009A8D93 /* CoursesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1FB2E423C8F23C009A8D93 /* CoursesModel.swift */; };
+		CE1FB2E923C90D2C009A8D93 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1FB2E823C90D2C009A8D93 /* TableViewController.swift */; };
+		CE1FB2EB23C90D3F009A8D93 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1FB2EA23C90D3F009A8D93 /* TableViewCell.swift */; };
+		CE1FB2ED23C9F5FE009A8D93 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1FB2EC23C9F5FE009A8D93 /* PostViewController.swift */; };
+		CE1FB2EF23CA703A009A8D93 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1FB2EE23CA703A009A8D93 /* DataProvider.swift */; };
+		CE1FB2FA23CA8E7B009A8D93 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1FB2F923CA8E7B009A8D93 /* Alerts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4AD4F0E1CED5884E42F39873 /* Pods_NetworkApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DF7362D383BD48E2EC858B7 /* Pods-NetworkApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkApp.release.xcconfig"; path = "Target Support Files/Pods-NetworkApp/Pods-NetworkApp.release.xcconfig"; sourceTree = "<group>"; };
+		7CD896849D07D80BB07029CD /* Pods-NetworkApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkApp.debug.xcconfig"; path = "Target Support Files/Pods-NetworkApp/Pods-NetworkApp.debug.xcconfig"; sourceTree = "<group>"; };
 		CE1FB2C323C8BC2C009A8D93 /* NetworkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1FB2C623C8BC2C009A8D93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE1FB2C823C8BC2C009A8D93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,16 @@
 		CE1FB2CD23C8BC2D009A8D93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE1FB2D023C8BC2D009A8D93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE1FB2D223C8BC2D009A8D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE1FB2D823C8C259009A8D93 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		CE1FB2DA23C8CB49009A8D93 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		CE1FB2DC23C8DB40009A8D93 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CE1FB2DE23C8E5A9009A8D93 /* AlamofireManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireManager.swift; sourceTree = "<group>"; };
+		CE1FB2E423C8F23C009A8D93 /* CoursesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesModel.swift; sourceTree = "<group>"; };
+		CE1FB2E823C90D2C009A8D93 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		CE1FB2EA23C90D3F009A8D93 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		CE1FB2EC23C9F5FE009A8D93 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		CE1FB2EE23CA703A009A8D93 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		CE1FB2F923CA8E7B009A8D93 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				816E43EA1ECDD77A7F73126A /* Pods_NetworkApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB93863F3CB56CCD19F50D6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AD4F0E1CED5884E42F39873 /* Pods_NetworkApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE1FB2BA23C8BC2C009A8D93 = {
 			isa = PBXGroup;
 			children = (
 				CE1FB2C523C8BC2C009A8D93 /* NetworkApp */,
 				CE1FB2C423C8BC2C009A8D93 /* Products */,
+				F3DAB9F085D908BBAD156FE2 /* Pods */,
+				AB93863F3CB56CCD19F50D6C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +90,32 @@
 			isa = PBXGroup;
 			children = (
 				CE1FB2C623C8BC2C009A8D93 /* AppDelegate.swift */,
+				CE1FB2F923CA8E7B009A8D93 /* Alerts.swift */,
+				CE1FB2DE23C8E5A9009A8D93 /* AlamofireManager.swift */,
+				CE1FB2DC23C8DB40009A8D93 /* NetworkManager.swift */,
+				CE1FB2EE23CA703A009A8D93 /* DataProvider.swift */,
 				CE1FB2C823C8BC2C009A8D93 /* ViewController.swift */,
+				CE1FB2D823C8C259009A8D93 /* CollectionViewCell.swift */,
+				CE1FB2DA23C8CB49009A8D93 /* ImageViewController.swift */,
+				CE1FB2E423C8F23C009A8D93 /* CoursesModel.swift */,
+				CE1FB2E823C90D2C009A8D93 /* TableViewController.swift */,
+				CE1FB2EA23C90D3F009A8D93 /* TableViewCell.swift */,
+				CE1FB2EC23C9F5FE009A8D93 /* PostViewController.swift */,
 				CE1FB2CA23C8BC2C009A8D93 /* Main.storyboard */,
 				CE1FB2CD23C8BC2D009A8D93 /* Assets.xcassets */,
 				CE1FB2CF23C8BC2D009A8D93 /* LaunchScreen.storyboard */,
 				CE1FB2D223C8BC2D009A8D93 /* Info.plist */,
 			);
 			path = NetworkApp;
+			sourceTree = "<group>";
+		};
+		F3DAB9F085D908BBAD156FE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CD896849D07D80BB07029CD /* Pods-NetworkApp.debug.xcconfig */,
+				6DF7362D383BD48E2EC858B7 /* Pods-NetworkApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +125,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE1FB2D523C8BC2D009A8D93 /* Build configuration list for PBXNativeTarget "NetworkApp" */;
 			buildPhases = (
+				48C973CF6659A8340FF202E6 /* [CP] Check Pods Manifest.lock */,
 				CE1FB2BF23C8BC2C009A8D93 /* Sources */,
 				CE1FB2C023C8BC2C009A8D93 /* Frameworks */,
 				CE1FB2C123C8BC2C009A8D93 /* Resources */,
+				119A339ACDCEC5D403BA4422 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,6 +186,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		119A339ACDCEC5D403BA4422 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetworkApp/Pods-NetworkApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetworkApp/Pods-NetworkApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NetworkApp/Pods-NetworkApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48C973CF6659A8340FF202E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetworkApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE1FB2BF23C8BC2C009A8D93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -137,6 +235,16 @@
 			files = (
 				CE1FB2C923C8BC2C009A8D93 /* ViewController.swift in Sources */,
 				CE1FB2C723C8BC2C009A8D93 /* AppDelegate.swift in Sources */,
+				CE1FB2DD23C8DB40009A8D93 /* NetworkManager.swift in Sources */,
+				CE1FB2EB23C90D3F009A8D93 /* TableViewCell.swift in Sources */,
+				CE1FB2ED23C9F5FE009A8D93 /* PostViewController.swift in Sources */,
+				CE1FB2EF23CA703A009A8D93 /* DataProvider.swift in Sources */,
+				CE1FB2E923C90D2C009A8D93 /* TableViewController.swift in Sources */,
+				CE1FB2DB23C8CB49009A8D93 /* ImageViewController.swift in Sources */,
+				CE1FB2DF23C8E5A9009A8D93 /* AlamofireManager.swift in Sources */,
+				CE1FB2E523C8F23C009A8D93 /* CoursesModel.swift in Sources */,
+				CE1FB2FA23CA8E7B009A8D93 /* Alerts.swift in Sources */,
+				CE1FB2D923C8C259009A8D93 /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +388,7 @@
 		};
 		CE1FB2D623C8BC2D009A8D93 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CD896849D07D80BB07029CD /* Pods-NetworkApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +407,7 @@
 		};
 		CE1FB2D723C8BC2D009A8D93 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DF7362D383BD48E2EC858B7 /* Pods-NetworkApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
